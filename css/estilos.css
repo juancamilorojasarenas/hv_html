@@ -1,13 +1,6 @@
 @font-face {
-    font-family: 'RioGrande';
-    src: url('../fonts/RioGrande.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RioGrandeStriped';
-    src: url('../fonts/RioGrandeStriped.ttf') format('truetype');
+    font-family: 'GODOFWAR';
+    src: url('../fonts/GODOFWAR.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,10 +11,21 @@
     font-weight: normal;
     font-style: normal;
 }
-h1 {
-    font-family:'RioGrande',sans-serif;
+@font-face {
+    font-family: 'Amsterdam';
+    src: url('../fonts/Amsterdam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-h2{ font-family: 'RioGrandeStriped';}
+:root{font-size: 32px;}
 
-h3{font-family: 'carolingia';}
+h1{font-family:'GODOFWAR';
+font-size: 1rem;
+}
+
+P {font-family: 'carolingia';
+font-size: 0.7rem;}
+
+nav{ font-size: 0.5rem;
+font-family: 'Amsterdam';}
