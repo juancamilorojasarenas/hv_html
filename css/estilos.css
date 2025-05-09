@@ -152,6 +152,30 @@ footer {
     }
 }
 
+@media (min-width: 600px) and (max-width: 900px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    .menu > li {
+      width: 50%;
+      font-size: 1rem;
+    }
+  
+    .imagen-perfil img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  }
+
 .imagen-perfil {
     text-align: center;
     margin-bottom: 20px;
