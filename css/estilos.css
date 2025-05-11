@@ -128,30 +128,6 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu > li {
-        width: 80%;
-        text-align: center;
-    }
-}
-
 .imagen-perfil {
     text-align: center;
     margin-bottom: 20px;
@@ -170,4 +146,115 @@ footer {
 .imagen-perfil img:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu > li {
+        width: 100%;
+        margin: 5px 0;
+        font-size: 0.9rem;
+    }
+    .imagen-perfil img {
+        width: 100px;
+        height: 100px;
+    }
+    section {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .menu > li {
+        width: 45%;
+        font-size: 1rem;
+    }
+    .imagen-perfil img {
+        width: 120px;
+        height: 120px;
+    }
+    section {
+        padding: 20px;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    body {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .menu > li {
+        width: auto;
+        margin: 0 15px;
+        padding: 12px 20px;
+        font-size: 1.1rem;
+    }
+    .imagen-perfil img {
+        width: 140px;
+        height: 140px;
+    }
+    section {
+        padding: 25px;
+        margin: 15px 0;
+    }
+}
+
+@media (min-width: 1201px) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.7rem;
+    }
+    .menu > li {
+        padding: 14px 24px;
+        font-size: 1.2rem;
+    }
+    .imagen-perfil img {
+        width: 160px;
+        height: 160px;
+    }
+    section {
+        padding: 30px;
+        margin: 20px 0;
+    }
 }
