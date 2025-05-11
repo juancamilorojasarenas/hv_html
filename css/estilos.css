@@ -128,6 +128,57 @@ footer {
     }
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu > li {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    .menu > li {
+      width: 50%;
+      font-size: 1rem;
+    }
+  
+    .imagen-perfil img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  }
+
+>>>>>>> dd9a151f34917efbf08e9276fe02fcad8cb2ec86
 .imagen-perfil {
     text-align: center;
     margin-bottom: 20px;
